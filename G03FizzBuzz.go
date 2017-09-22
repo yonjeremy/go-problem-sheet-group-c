@@ -1,4 +1,5 @@
 //FizzBuzz code in GO language
+//Author Jeremy Yon G00330435
 
 package main
 
