@@ -2,16 +2,17 @@
 
 Problem set: Go fundamentals (ANSWERED)
 
-## Getting Started
+## Author
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository is managed by JEREMY YON (G00330435) of Galway Mayo Institute of Technology.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Software needed to run the code
 
 ```
-Give examples
+GO1 9.1
+https://storage.googleapis.com/golang/go1.9.1.windows-amd64.msi
 ```
 
 ### Installing
