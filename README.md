@@ -1,4 +1,4 @@
-# Project Title
+# Go Fundamentals
 
 Problem set: Go fundamentals (ANSWERED)
 
@@ -11,19 +11,18 @@ This repository is managed by JEREMY YON (G00330435) of Galway Mayo Institute of
 Software needed to run the code
 
 ```
-GO1 9.1
-https://storage.googleapis.com/golang/go1.9.1.windows-amd64.msi
+- GO1 9.1 (Download here: https://storage.googleapis.com/golang/go1.9.1.windows-amd64.msi)
 ```
 
-### Installing
+### Cloning this repository
 
-A step by step series of examples that tell you have to get a development env running
+Step by step methods to clone this repository to your local machine.
 
-Say what the step will be
 
 ```
-Give the example
-```
+Step 1: In cmder, change directory (cd) to the folder that you want to clone your repository to.
+
+Step 2:```
 
 And repeat
 
