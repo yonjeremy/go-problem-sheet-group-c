@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to the playground!")
-
+	// Gets the time and date and prints out values
 	fmt.Println("The time and date is", time.Now())
 }
