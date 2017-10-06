@@ -22,7 +22,8 @@ Step by step methods to clone this repository to your local machine.
 ```
 Step 1: In cmder, change directory (cd) to the folder that you want to clone your repository to.
 
-Step 2:```
+Step 2:s
+```
 
 And repeat
 
