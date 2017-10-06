@@ -1,4 +1,4 @@
-//Guessing game
+// Get Largest and Smallest value in an array
 //Author Jeremy Yon G00330435
 
 package main
@@ -9,41 +9,24 @@ import (
 
 func main(){
     
+    // Hardcoded user array (only works with integers)
     numbers := []int{1,2,3,4,5}
 
+    // call function to get smallest and largest number
     getSmallestandLargest(numbers)
-
-
-
-
-
-    // var input int
-
-    // for input != -9999{
-    //     var input int
-    //     fmt.Print("\nEnter Integer: ")
-    //     _, err := fmt.Scan(&input)
-    //     if err != nil {
-    //         fmt.Println(err)
-    //         return
-    //     }
-
-    //     numbers = append(numbers, input)
-
-    // }
-
-   
-
-
 
 }
 
-func getSmallestandLargest(numbers []int) {
+func getSmallestandLargest(numbers [] int) {
 
-    var smallest = 9999
-    var largest = -9999
+    // hardcode default smallest and largest number
+    var smallest = 999999
+    var largest = -999999
 
+    // loop over array
     for i:=0;i<len(numbers);i++{
+
+        // assign new smallest and largest number
         if numbers[i]<smallest{
             smallest = numbers[i]
         }
@@ -52,7 +35,8 @@ func getSmallestandLargest(numbers []int) {
         }
     }
 
-    fmt.Println(smallest)
-    fmt.Println(largest)
+    // Print results
+    fmt.Printf("The smallest number is %d\n",smallest)
+    fmt.Printf("The largest number is %d",largest)
 
 }
